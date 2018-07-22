@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_grey"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".MainActivity"
+    tools:deviceIds="wear"
+
+    >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/blue"
+        android:padding="@dimen/inner_frame_layout_padding"
+        app:boxedEdges="">
+
+
+
+        <Spinner
+            android:id="@+id/spin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="1"
+            >
+        </Spinner>
+
+
+
+        <TextView
+            android:id="@+id/con"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="165dp"
+            android:text=" "
+
+            ></TextView>
+
+
+        <Button
+            android:id="@+id/numberr"
+            android:layout_width="67dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="90dp"
+            android:focusable="false"
+            style="?android:attr/editTextStyle"
+            android:focusableInTouchMode="false"
+            android:clickable="true"
+            android:text="    #   "
+            >
+
+
+
+
+            <requestFocus/>
+        </Button>
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="69dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="90dp"
+            android:text="Conv" />
+    </FrameLayout>
+
+
+
+</android.support.wear.widget.BoxInsetLayout>

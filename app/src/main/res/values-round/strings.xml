@@ -1,0 +1,33 @@
+<resources>
+
+    <string-array name="formulas">
+        <item>Pick One</item>
+
+        <item>---TEMPERATURE---</item>
+        <item>Celsius to Fahrenheit</item>
+        <item>Fahrenheit to Celsius</item>
+
+        <item>---LENGTH---</item>
+        <item>Centimeter to Inch</item>
+        <item>Centimeter to Feet</item>
+        <item>Feet to Centimeter</item>
+        <item>Feet to Mile</item>
+        <item>Inch to Centimeter</item>
+        <item>Inch to Feet</item>
+        <item>Kilometer to Mile</item>
+        <item>Mile to Feet</item>
+        <item>Mile to Kilometer</item>
+
+        <item>---MASS---</item>
+        <item>Gram to Pound</item>
+        <item>Pound to Gram</item>
+
+        <item>---LIQUID---</item>
+        <item>Ounce to Milliliter</item>
+        <item>Milliliter to Ounce</item>
+
+    </string-array>
+    <string name="hello_world">Hello Round World!</string>
+
+
+</resources>
